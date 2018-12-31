@@ -5,7 +5,7 @@ The models on Aff-Wild can be downloaded [here](https://drive.google.com/open?id
 
 The above link contains 3 folders named: "affwildnet-vggface-gru" , "affwildnet-resnet-gru" and "vggface".
 
-The "vggface" folder contains two subfolders with 2 different models (same architecture; their only difference is the training strategy that has been deployed): both models are CNN networks based on VGG-FACE (with 3 fully connected layers with 4096, 4096 and 2 units respectively).
+The "vggface" folder contains two subfolders with 2 different models: both models are CNN networks based on VGG-FACE (with 3 fully connected layers with: i) 4096, 2000, 2 and ii) 4096, 4096,  2 units, respectively).
 
 The "affwildnet-vggface-gru" folder contains the AffWildNet architecture (with no landmarks) as described in the paper entitled: ["Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond"](https://arxiv.org/pdf/1804.10938.pdf).
 
