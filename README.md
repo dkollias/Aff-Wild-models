@@ -17,4 +17,4 @@ Inside each of those folders, one can find the architectures of the networks, im
 Dependencies:
 
 - The code works with Tensorflow 1.8
-- slim is also needed (it is incorporated in Tensorflow)
+- slim is also needed (it is incorporated within Tensorflow)
