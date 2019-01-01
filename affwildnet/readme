@@ -1,0 +1,17 @@
+To build the AffWildNet VGGFACE-GRU network one should use the below python code:
+
+import vggface-gru as net
+
+network = net.VGGFace(batch_size,sequence_length)
+
+## image_batch is a Tensor of shape (batch_size, sequence_length, 96, 96, 3) containing the images whose pixel intensities are within the range [-1,1] 
+## sequence_length should be 80: when training we used sequences of length 80 (meaning 80 consecutive images from the same video) ; in the official Tensorflow documentation this is also called max_time
+## batch_size is a number defining how many different sequences we have 
+
+image_batch = tf.reshape(image_batch,[batch_size * sequence_length, 96, 96, 3])
+
+network.setup(image_batch)
+prediction = network.get_output()
+valence_val = prediction[:,0]
+arousal_val = prediction[:,1]
+
