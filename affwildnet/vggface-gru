@@ -47,10 +47,8 @@ class VGGFace(object):
         # (31): nn.SpatialMaxPooling(2,2,2,2)
         self.layers.append(('pool',2,2,2,2))
         # (32): nn.View
-        # (33): nn.Linear(25088 -> 4096)
         self.layers.append(('linear','33',4096,True))
         # (34): nn.ReLU
-        # (35): nn.Dropout(0.500000)
         self.layers.append(('rnn','36',2,128,2,False))
 
 
