@@ -2,7 +2,9 @@ import tensorflow as tf
 from tensorflow.contrib.slim.python.slim.nets import resnet_v1
 slim = tf.contrib.slim
 
-## image_batch is a Tensor of shape (batch_size * sequence_length,96,96,3) containing the images whose pixel intensities are within the range [-1,1] 
+## image_batch is a Tensor of shape (batch_size, sequence_length, 96, 96, 3) containing the images whose pixel intensities are within the range [-1,1] 
+## sequence_length should be 80: when training we used sequences of length 80 (meaning 80 consecutive images from the same video)
+image_batch = tf.reshape(image_batch,[batch_size * sequence_length, 96, 96, 3])
 
 with slim.arg_scope(resnet_v1.resnet_arg_scope()):
       net,_  = resnet_v1.resnet_v1_50(inputs=image_batch,is_training=False,num_classes=None)
