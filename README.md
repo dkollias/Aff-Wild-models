@@ -1,7 +1,7 @@
 # Aff-Wild-models
 
 
-The models on Aff-Wild can be downloaded [here](https://drive.google.com/open?id=1xkVK92XLZOgYlpaRpG_-WP0Elzg4ewpw).
+The models on Aff-Wild can be downloaded from [here](https://drive.google.com/open?id=1xkVK92XLZOgYlpaRpG_-WP0Elzg4ewpw).
 
 The above link contains 3 folders named: "affwildnet-vggface-gru" , "affwildnet-resnet-gru" and "vggface".
 
