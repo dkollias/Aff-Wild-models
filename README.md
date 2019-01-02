@@ -1,5 +1,4 @@
 # Aff-Wild-models
-------------------
 
 
 ## Pre-trained models:
