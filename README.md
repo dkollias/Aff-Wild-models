@@ -1,9 +1,5 @@
 # Aff-Wild-models
 
-
-## Pre-trained models:
-The models on Aff-Wild can be downloaded from [here](https://drive.google.com/open?id=1xkVK92XLZOgYlpaRpG_-WP0Elzg4ewpw).
-
 ## References
 
 If you use any of the models/weights, please cite the following papers:
@@ -26,6 +22,10 @@ If you use any of the models/weights, please cite the following papers:
   year={2017},
   organization={IEEE}
 }
+
+## Pre-trained models:
+The models on Aff-Wild can be downloaded from [here](https://drive.google.com/open?id=1xkVK92XLZOgYlpaRpG_-WP0Elzg4ewpw).
+
 
 ## Description:
 The above link contains 3 folders named: "affwildnet-vggface-gru" , "affwildnet-resnet-gru" and "vggface".
