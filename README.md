@@ -28,20 +28,17 @@ If you use any of the models/weights, please cite the following papers:
 1.   D. Kollias, et. al. "Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond", arXiv preprint, 2018.
 
 > BibTeX:
-
 > @article{kollias2018deep, title={Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond}, author={Kollias, Dimitrios and Tzirakis, Panagiotis and Nicolaou, Mihalis A and Papaioannou, Athanasios and Zhao, Guoying and Schuller, Bj{\"o}rn and Kotsia, Irene and Zafeiriou, Stefanos}, journal={arXiv preprint arXiv:1804.10938}, year={2018} }
 
 2.  S. Zafeiriou, et. al. "Aff-Wild: Valence and Arousal in-the-wild Challenge", CVPRW, 2017.
 
 > BibTeX:
-
-@inproceedings{zafeiriou2017aff, title={Aff-wild: Valence and arousal ‘in-the-wild’challenge}, author={Zafeiriou, Stefanos and Kollias, Dimitrios and Nicolaou, Mihalis A and Papaioannou, Athanasios and Zhao, Guoying and Kotsia, Irene}, booktitle={Computer Vision and Pattern Recognition Workshops (CVPRW), 2017 IEEE Conference on}, pages={1980--1987}, year={2017}, organization={IEEE} }
+>@inproceedings{zafeiriou2017aff, title={Aff-wild: Valence and arousal ‘in-the-wild’challenge}, author={Zafeiriou, Stefanos and Kollias, Dimitrios and Nicolaou, Mihalis A and Papaioannou, Athanasios and Zhao, Guoying and Kotsia, Irene}, booktitle={Computer Vision and Pattern Recognition Workshops (CVPRW), 2017 IEEE Conference on}, pages={1980--1987}, year={2017}, organization={IEEE} }
 
 3. D. Kollias, et. al. "Recognition of affect in the wild using deep neural networks", CVPRW, 2017.
 
 > BibTeX:
-
-@inproceedings{kollias2017recognition,
+>@inproceedings{kollias2017recognition,
   title={Recognition of affect in the wild using deep neural networks},
   author={Kollias, Dimitrios and Nicolaou, Mihalis A and Kotsia, Irene and Zhao, Guoying and Zafeiriou, Stefanos},
   booktitle={Computer Vision and Pattern Recognition Workshops (CVPRW), 2017 IEEE Conference on},
