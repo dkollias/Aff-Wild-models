@@ -1,4 +1,4 @@
-To build the CNN based on VGGFACE network one should use the below python code:
+To build the CNN based on VGGFACE network, one should use the below python code:
 
 import vggface_4096x4096x2 as net
 ##or import vggface_4096x2000x2 as net
