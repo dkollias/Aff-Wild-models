@@ -37,6 +37,7 @@ The "affwildnet-vggface-gru" folder contains the AffWildNet architecture (with n
 The "affwildnet-resnet-gru" folder contains the AffWildNet architecture (with no landmarks and no fully connected layer; a Resnet-50 followed by a GRU network) as described in the paper entitled: ["Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond"](https://arxiv.org/pdf/1804.10938.pdf).
 
 Inside each of those folders, one can find the architectures of the networks, implemented in the Tensorflow environment and a readme explaining how to build/use them.
+An evaluation file is also uploaded with detailed explanation inside.
 
 
 ## Prerequisites:
