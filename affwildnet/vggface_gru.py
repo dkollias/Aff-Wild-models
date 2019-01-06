@@ -128,10 +128,10 @@ class VGGFace(object):
                         dim = 1
                         for d in input_shape[1:].as_list():
                             dim *= d
-                        feed_in = tf.reshape(input, [-1,self.seq_len, dim])
+                        feed_in = tf.reshape(input, [-1,self.seq_size, dim])
                     else:
                         feed_in, dim = (input, int(input_shape[-1]))
-                    feed_in = tf.reshape(feed_in, [-1,self.seq_len, dim])
+                    feed_in = tf.reshape(feed_in, [-1,self.seq_size, dim])
 
                     cell= tf.nn.rnn_cell.MultiRNNCell([tf.nn.rnn_cell.GRUCell(num_units) for _ in range(num_layers)])
                     outputs, _ = tf.nn.dynamic_rnn(cell, feed_in, dtype=tf.float32)
