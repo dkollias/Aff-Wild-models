@@ -74,7 +74,7 @@ def evaluate():
     elif FLAGS.network == 'affwildnet_resnet':
      from tensorflow.contrib.slim.python.slim.nets import resnet_v1
      with slim.arg_scope(resnet_v1.resnet_arg_scope()):
-      net,_  = resnet_v1.resnet_v1_50(inputs=image_batch,is_training=False,num_classes=None)
+      net,_  = resnet_v1.resnet_v1_50(inputs=images_batch,is_training=False,num_classes=None)
       
       with tf.variable_scope('rnn') as scope:
         cnn = tf.reshape(net,[FLAGS.batch_size,FLAGS.sequence_length,-1])
