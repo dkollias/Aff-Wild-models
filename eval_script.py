@@ -95,7 +95,7 @@ def evaluate():
         prediction = tf.nn.xw_plus_b(outputs, weights, biases) 
 
     elif FLAGS.network == 'affwildnet_vggface':
-     from affwildnet import vggface-gru as net
+     from affwildnet import vggface_gru as net
      network = net.VGGFace(FLAGS.batch_size, FLAGS.seq_length)
      network.setup(images_batch)
      prediction = network.get_output()
