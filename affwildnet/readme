@@ -1,6 +1,6 @@
 To build the AffWildNet VGGFACE-GRU network one should use the below python code:
 
-import vggface-gru as net
+import vggface_gru as net
 
 network = net.VGGFace(batch_size,sequence_length)
 
