@@ -39,6 +39,8 @@ The "affwildnet-resnet-gru" folder contains the AffWildNet architecture (with no
 Inside each of those folders, one can find the architectures of the networks, implemented in the Tensorflow environment and a readme explaining how to build/use them.
 An evaluation file is also uploaded with detailed explanation inside.
 
+The Aff-Wild database can be downloaded from [here](https://drive.google.com/file/d/1A6uU4XdO11o_VYSV5RCGiwCb9l4Wgk4s/view?usp=sharing).
+Specific details about the database and related stuff can be read in the Challenge [site](https://ibug.doc.ic.ac.uk/resources/first-affect-wild-challenge/).
 
 ## Prerequisites:
 
