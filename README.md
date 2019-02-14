@@ -4,7 +4,7 @@
 
 If you use any of the models/weights, please cite the following papers:
 
-1.   D. Kollias, et. al.: "Deep affect prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond". International  Journal  of  Computer  Vision  (2019).   DOI10.1007/s11263-019-01158-4.
+1.   D. Kollias, et. al.: "Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond". International  Journal  of  Computer  Vision  (2019).   DOI10.1007/s11263-019-01158-4.
 
 > @article{Kollias_2019,
 	doi = {10.1007/s11263-019-01158-4},
