@@ -4,17 +4,15 @@
 
 If you use any of the models/weights, please cite the following papers:
 
-1.   D. Kollias, et. al.: "Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond". International  Journal  of  Computer  Vision  (2019).   DOI10.1007/s11263-019-01158-4.
+1.   D. Kollias, et. al.: "Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond". International  Journal  of  Computer  Vision  (2019).  
 
-> @article{Kollias_2019,
-	doi = {10.1007/s11263-019-01158-4},
-	url = {https://doi.org/10.1007%2Fs11263-019-01158-4},
-	year = 2019,
-	month = {feb},
-	publisher = {Springer Nature},
-	author = {Dimitrios Kollias and Panagiotis Tzirakis and Mihalis A. Nicolaou and Athanasios Papaioannou and Guoying Zhao and Björn Schuller and Irene Kotsia and Stefanos Zafeiriou},
-	title = {Deep Affect Prediction in-the-Wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond},
-	journal = {International Journal of Computer Vision}
+> @article{kollias2019deep,
+  title={Deep affect prediction in-the-wild: Aff-wild database and challenge, deep architectures, and beyond},
+  author={Kollias, Dimitrios and Tzirakis, Panagiotis and Nicolaou, Mihalis A and Papaioannou, Athanasios and Zhao, Guoying and Schuller, Bj{\"o}rn and Kotsia, Irene and Zafeiriou, Stefanos},
+  journal={International Journal of Computer Vision},
+  pages={1--23},
+  year={2019},
+  publisher={Springer}
 }
 
 2.  S. Zafeiriou, et. al. "Aff-Wild: Valence and Arousal in-the-wild Challenge", CVPRW, 2017.
