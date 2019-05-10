@@ -43,7 +43,8 @@ def evaluate():
 
 
     image_list, label_list = data_process.read_labeled_image_list(FLAGS.input_file)
-    # split into sequences
+    # split into sequences, note: in the cnn models case this is splitting into batches of length: seq_length ;
+    #                             for the cnn-rnn models case, I do not check whether the images in a sequence are consecutive or the images are from the same video/the images are displaying the same person 
     image_list, label_list = data_process.make_rnn_input_per_seq_length_size(image_list,label_list,FLAGS.seq_length)
 
     images = tf.convert_to_tensor(image_list)
